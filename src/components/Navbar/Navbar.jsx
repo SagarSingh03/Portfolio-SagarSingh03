@@ -43,7 +43,7 @@ function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Resume
+               Resume
               </a>
             </li>
           </ul>
