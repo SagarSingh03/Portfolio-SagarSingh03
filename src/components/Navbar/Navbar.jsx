@@ -38,12 +38,12 @@ function Navbar() {
               </Link>
             </li>
             <li className="Resume">
-             <a
-                href="/SagarSingh_Resume.pdf"   
+              <a
+                href="https://drive.google.com/uc?export=view&id=144DlYzqIP5x70g0kBLmeh0z3Vx4_ONa1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-               Resume
+                Resume
               </a>
             </li>
           </ul>
