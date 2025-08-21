@@ -14,12 +14,7 @@ const projectList = [
     tech: ["React", "Vite", "CSS", "JavaScript", "MUI"],
     link: "https://bluebrick-real-estate-frontend-ui.netlify.app/"
   },
-  {
-    title: "Motion Verse ",
-    description: "Motion$Verse is a multilingual cinematic discovery platform that aggregates and filters movies and TV shows from diverse genres and languages.",
-    tech: ["React", "TMDB API", "CSS", "Javascript", "MUI", "React-router", "External Integration"],
-    link: "https://motion-verse-movie-and-tv-shows-find.netlify.app/"
-  },
+ 
   {
     title: "Currency Converter",
     description: "Built a real-time currency converter using API integration, enabling accurate and instant currency exchange calculations with a clean UI",
@@ -30,6 +25,12 @@ const projectList = [
     title: "Fun Project Rock Paper Scisoor",
     description: "A fun and interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript, featuring dynamic gameplay and score tracking",
     tech: ["HTML", "CSS", "JavaScript"],
+    link: "https://paper-stone-scissor-working-game.netlify.app/"
+  },
+  {
+    title: "Portfolio",
+    description: "Showcasing innovative web development projects with a focus on React and modern design",
+    tech: ["JSX", "CSS", "JavaScript", "React"],
     link: "https://paper-stone-scissor-working-game.netlify.app/"
   }
 ]
