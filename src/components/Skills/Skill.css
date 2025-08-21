@@ -1,0 +1,264 @@
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  color: #272323;
+  background-color: #fffefe;
+}
+
+.skills-list strong {
+  font-size: 7rem;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  color: #f02626;
+  margin-bottom: 10px;
+}
+
+.skills-list p {
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #784a4a;
+  margin: 0;
+}
+
+.quote {
+  font-size: 1.8rem;
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+  color: #8A2BE2; /* Unique vibrant violet */
+  margin: 10px 0;
+  padding: 5px 15px;
+  background: linear-gradient(90deg, rgba(138, 43, 226, 0.1), rgba(138, 43, 226, 0)); /*learn it */
+  border-left: 4px solid #8A2BE2;
+  border-radius:  4px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.quote:hover {
+  color: #6A1AB2; 
+  transform: scale(1.02); 
+}
+
+.quote2{
+  font-size: 1.8rem;
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+  color:#4ECDC4;
+  margin: 10px 0;
+  padding: 5px 15px;
+  background: linear-gradient(-90deg, rgba(60, 195, 232, 0.1), rgba(61, 178, 158, 0));
+  border-right: 4px solid #4ECDC4;
+  border-radius: 4px;
+}
+
+.quote2:hover{
+  color: #4ECDC4;
+  transform: scale(1.02);
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 15px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.skill-tag {
+  background-color: #ffffff;
+  color: #272323;
+  padding: 0.5rem 1.2rem;
+  border-radius: 9999px;
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif;
+  font-weight: 500;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+.skill-tag:hover {
+  transform: scale(1.08);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#html:hover {
+  background-color: #FF6B6B;
+  color: #ffffff;
+}
+
+#css:hover {
+  background-color: #4ECDC4;
+  color: #ffffff;
+}
+
+#javascript:hover {
+  background-color: #45B7D1;
+  color: #ffffff;
+}
+
+#react:hover {
+  background-color: #F7D794;
+  color: #272323;
+}
+
+#git:hover {
+  background-color: #9B59B6;
+  color: #ffffff;
+}
+
+#github:hover {
+  background-color: #3498DB;
+  color: #ffffff;
+}
+
+#mui:hover {
+  background-color: #E74C3C;
+  color: #ffffff;
+}
+
+#firebase:hover {
+  background-color: #2ECC71;
+  color: #ffffff;
+}
+
+#vs-code:hover {
+  background-color: #F1C40F;
+  color: #272323;
+}
+
+#replit:hover {
+  background-color: #8E44AD;
+  color: #ffffff;
+}
+
+#canva:hover {
+  background-color: #D35400;
+  color: #ffffff;
+}
+
+#python:hover {
+  background-color: #1ABC9C;
+  color: #ffffff;
+}
+
+#c:hover {
+  background-color: #E67E22;
+  color: #ffffff;
+}
+
+#cpp:hover {
+  background-color: #16A085;
+  color: #ffffff;
+}
+
+#operating-system:hover {
+  background-color: #F39C12;
+  color: #ffffff;
+}
+
+#computer-networks:hover {
+  background-color: #C0392B;
+  color: #ffffff;
+}
+
+#es6:hover {
+  background-color: #BDC3C7;
+  color: #272323;
+}
+
+#redux:hover {
+  background-color: #7F8C8D;
+  color: #ffffff;
+}
+
+#bootstrap:hover {
+  background-color: #27AE60;
+  color: #ffffff;
+}
+
+#tailwind:hover {
+  background-color: #2980B9;
+  color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .skills-list {
+    margin-top: 8rem;
+  }
+
+  .skills-list strong {
+    font-size: 5rem;
+  }
+
+  .skills-list p {
+    font-size: 1.2rem;
+  }
+
+  .skill-tag {
+    font-size: 1.2rem;
+    padding: 0.4rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-list {
+    margin-top: 6rem;
+    padding: 0 15px;
+  }
+
+  .skills-list strong {
+    font-size: 3.5rem;
+  }
+
+  .skills-list p {
+    font-size: 1rem;
+  }
+
+  .skills-container {
+    gap: 10px;
+    padding: 0 15px;
+  }
+
+  .skill-tag {
+    font-size: 1rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-list {
+    margin-top: 4rem;
+    padding: 0 10px;
+  }
+
+  .skills-list strong {
+    font-size: 2.5rem;
+  }
+
+  .skills-list p {
+    font-size: 0.9rem;
+  }
+
+  .skills-container {
+    gap: 8px;
+    padding: 0 10px;
+  }
+
+  .skill-tag {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.6rem;
+  }
+}
