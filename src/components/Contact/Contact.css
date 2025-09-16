@@ -24,9 +24,6 @@
   transition: transform 0.3s ease; 
 }
 
-.contact p{
-  font-style: italic;
-}
 
 .contact-image:hover {
   transform: scale(1.05); /* Slight zoom on hover */

@@ -39,7 +39,7 @@ function Navbar() {
             </li>
             <li className="Resume">
               <a
-                href="https://drive.google.com/uc?export=view&id=144DlYzqIP5x70g0kBLmeh0z3Vx4_ONa1"
+                href="https://drive.google.com/file/d/1NrQtGWI25Y2EkzarejyfTj__Edbxg2gn/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
