@@ -9,6 +9,12 @@ const projectList = [
     link: "https://eat-and-repeat-food-delivery-website.netlify.app/"
   },
   {
+    title: "Daily News Read Website",
+    description: "I built a news reading website using React, JSX, Bootstrap, authentication, and routing for seamless user experience and secure access.",
+    tech: ["React", "BootStrap", "JavaScript", "JSX", "MUI", "Router", "Webauthentication"],
+    link: "https://daily-read-news-app.vercel.app/"
+  },
+  {
     title: "BlueBrick Real-Estate",
     description: "Developed a responsive front-end real estate website for Bluebrick, featuring modern UI, property listings, and smooth navigation.",
     tech: ["React", "Vite", "CSS", "JavaScript", "MUI"],

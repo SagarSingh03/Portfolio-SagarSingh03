@@ -15,14 +15,13 @@ function Footer() {
 
       <div className="social-links">
         <a href="https://www.instagram.com/maisagarhoon_03/" target="_blank"> <img src={instagram} alt="Instagram"/></a>
-        <a href="https://x.com/SAGARSI67152925" target="_blank"> <img src={twitter}/></a>
-        <a href="https://www.linkedin.com/in/sagar-singh-193287213/" target="_blank"> <img src={linkedin}/></a>
+        <a href="https://x.com/Sagar_Singh03" target="_blank"> <img src={twitter}/></a>
+        <a href="https://www.linkedin.com/in/sagar-singh03/" target="_blank"> <img src={linkedin}/></a>
         <a href="https://github.com/SagarSingh03" target="_blank"> <img src={github}/></a>
       </div>
     </div>
   )
 }
-
 export default Footer;
 
 
