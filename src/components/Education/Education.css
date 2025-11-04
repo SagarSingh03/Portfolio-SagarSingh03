@@ -5,3 +5,35 @@
     color: rgb(248, 56, 56);
     margin-top: 260px;
 }
+
+/* For laptops and small desktops */
+@media (max-width: 1024px) {
+  .education h1 {
+    font-size: 5rem;
+    margin-top: 200px;
+  }
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  .education h1 {
+    font-size: 3.5rem;
+    margin-top: 150px;
+  }
+}
+
+/* For large mobile devices */
+@media (max-width: 600px) {
+  .education h1 {
+    font-size: 2.8rem;
+    margin-top: 120px;
+  }
+}
+
+/* For small mobile screens */
+@media (max-width: 480px) {
+  .education h1 {
+    font-size: 2.2rem;
+    margin-top: 100px;
+  }
+}

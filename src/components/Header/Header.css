@@ -1,99 +1,189 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 40px;
   max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 60px;
+  margin: 60px auto 0;
   background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  gap: 40px;
 }
 
+/* ---------- Left Section ---------- */
+.header-left {
+  flex: 1;
+}
 
-
-.header-left h1{
+.header-left h1 {
   font-size: 7rem;
-  color: red;
-  
+  color: rgb(248, 56, 56);
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
 }
 
 .header-left strong {
-  font-size: 40px;
-  font-weight: bold;
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
   color: #333;
   font-style: italic;
+  margin-bottom: 8px;
 }
 
 .header-left label {
+  display: block;
   color: #e60909;
-  font-size: 30px;
+  font-size: 1.8rem;
   font-style: italic;
+  margin-bottom: 15px;
 }
 
 .header-left p {
   text-align: left;
   font-family: 'Arial', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.7;
   color: #555;
   max-width: 600px;
 }
 
+/* ---------- Right Section (Image) ---------- */
 .header-right {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-image {
-  width: 400px;
-  height: 450px;
-  border-radius: 10px;
-  margin-right: 50px;
-  margin-top: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-   transition: transform 0.3s ease-in-out;
+  width: 380px;
+  height: 440px;
+  border-radius: 12px;
+  margin-top: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: cover;
 }
 
-.profile-image:hover{
-transform: scale(1.1);
+.profile-image:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
 
-/* Responsive Design */
+/* ========================= 📱 Responsive Design ========================= */
+
+/* 🖥️ Laptops & small desktops */
+@media (max-width: 1024px) {
+  .header {
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .header-left h1 {
+    font-size: 5rem;
+  }
+
+  .header-left strong {
+    font-size: 2rem;
+  }
+
+  .header-left label {
+    font-size: 1.5rem;
+  }
+
+  .profile-image {
+    width: 300px;
+    height: 340px;
+  }
+}
+
+/* 📱 Tablets */
 @media (max-width: 768px) {
   .header {
-    flex-direction: column;
-    padding: 20px;
+    flex-direction: column-reverse;
+    align-items: center;
     text-align: center;
+    padding: 25px 20px;
+    gap: 20px;
   }
 
   .header-left {
-    flex: none;
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
-  .header-right {
-    justify-content: center;
+  .header-left h1 {
+    font-size: 3.8rem;
+  }
+
+  .header-left strong {
+    font-size: 1.8rem;
+  }
+
+  .header-left label {
+    font-size: 1.3rem;
+  }
+
+  .header-left p {
+    font-size: 0.95rem;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 240px;
+    margin-top: 0;
+  }
+}
+
+/* 📱 Large Mobile Devices */
+@media (max-width: 600px) {
+  .header-left h1 {
+    font-size: 3rem;
+  }
+
+  .header-left strong {
+    font-size: 1.5rem;
+  }
+
+  .header-left label {
+    font-size: 1.1rem;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 210px;
+  }
+}
+
+/* 📱 Small Mobile Devices */
+@media (max-width: 480px) {
+  .header {
+    padding: 20px 15px;
+    margin-top: 40px;
+  }
+
+  .header-left h1 {
+    font-size: 2.5rem;
+  }
+
+  .header-left strong {
+    font-size: 1.3rem;
+  }
+
+  .header-left label {
+    font-size: 1rem;
+  }
+
+  .header-left p {
+    font-size: 0.85rem;
+    line-height: 1.5;
   }
 
   .profile-image {
     width: 150px;
     height: 180px;
   }
-
-  .header-left strong {
-    font-size: 30px;
-  }
-
-  .header-left label {
-    font-size: 24px;
-  }
-
-  .header-left p {
-    font-size: 14px;
-    max-width: 100%;
-  }
 }
-

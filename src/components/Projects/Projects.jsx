@@ -6,7 +6,7 @@ const projectList = [
     title: "Eat&Repeat Food Delivery Website",
     description: "A React-based food delivery app with menu, cart, and checkout system.",
     tech: ["React", "CSS", "JavaScript", "JSX", "MUI"],
-    link: "https://eat-and-repeat-food-delivery-website.netlify.app/"
+    link: "https://eat-and-repeat-food-deilvery-website.netlify.app/"
   },
   {
     title: "Daily News Read Website",
@@ -25,20 +25,14 @@ const projectList = [
     title: "Currency Converter",
     description: "Built a real-time currency converter using API integration, enabling accurate and instant currency exchange calculations with a clean UI",
     tech: ["React", "Vite", "CSS", "JSX"],
-    link: "https://currency-converter-responsive.netlify.app/"
+    link: "https://currency-converter-realrate-realtime.netlify.app/"
   },
   {
     title: "Fun Project Rock Paper Scisoor",
     description: "A fun and interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript, featuring dynamic gameplay and score tracking",
     tech: ["HTML", "CSS", "JavaScript"],
-    link: "https://paper-stone-scissor-working-game.netlify.app/"
+    link: "https://rock-paper-scissor-uigame.netlify.app/"
   },
-  {
-    title: "Portfolio",
-    description: "Showcasing innovative web development projects with a focus on React and modern design",
-    tech: ["JSX", "CSS", "JavaScript", "React"],
-    link: "https://paper-stone-scissor-working-game.netlify.app/"
-  }
 ]
 
 function Projects() {
